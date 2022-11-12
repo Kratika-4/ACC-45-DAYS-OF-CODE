@@ -1,0 +1,9 @@
+vowels = 'aeiou'
+
+ip_str = 'Hello, have you tried our tutorial section yet?'
+ip_str = ip_str.casefold()
+count = {}.fromkeys(vowels,0)
+for character in ip_str:
+   if character in count:
+       count[character] += 1
+print(count)

@@ -1,0 +1,6 @@
+my_dict = {1: 'a', 2: 'b', 3: 'c'}
+n = int(input("Enter value: "))
+if n in my_dict:
+    print(n, "is present in given dictionary.")
+else:
+    print(n, "is not present in given dictionary.")

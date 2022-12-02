@@ -1,0 +1,11 @@
+T = int(input())
+
+for i in range(T):
+    X, Y= map(int,input().split())
+    
+    if X == Y:
+        print('ANY')
+    if X > Y:
+        print('SECOND')
+    if X < Y:
+        print('FIRST')
